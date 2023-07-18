@@ -22,6 +22,3 @@ type UsersResponse struct {
 	Users map[string]string `json:"users"`
 }
 
-type ErrorResponse struct {
-	Message string `json:"message"`
-}
